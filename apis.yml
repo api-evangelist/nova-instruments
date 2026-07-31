@@ -1,8 +1,28 @@
 aid: nova-instruments
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nova-instruments.png
 name: Nova Instruments
-description: Nova Instruments is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Nova Instruments is a test-and-measurement platform company that designs,
+  develops, and manufactures instruments and systems for analyzing fluid and
+  solid mechanics. It operates a family of established brands — Brookhaven
+  Instruments, Dantec Dynamics, DegreeC, NDT Systems, Phoenix Inspection
+  Systems, Technology Design, and Stresstech — spanning particle
+  characterization, optical measurement, thermal management, and
+  non-destructive testing. A portfolio company of Battery Ventures since 2010,
+  it operates as part of the Nova Ventures Group. As a hardware-focused
+  instruments manufacturer, Nova Instruments does not currently publish a
+  public web API, developer portal, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/nova-instruments/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.novavg.com/platforms/nova-instruments/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Test and Measurement
+- Instruments
+- Non-Destructive Testing
+- Manufacturing
+- Hardware
+- Portfolio Company
 apis: []
+common:
+- type: Website
+  url: https://www.novavg.com/platforms/nova-instruments/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
